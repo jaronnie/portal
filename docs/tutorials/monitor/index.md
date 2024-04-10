@@ -8,7 +8,7 @@ slug: /docs/tutorials/monitor/index
 go-zero 启动的服务（RPC Server 或 HTTP Server）默认集成健康检查，健康检查默认端口为`6470`，默认 Path 为`/healthz`，服务启动后访问健康检查地址会返回`OK`
 
 ```shell
-curl -i http://127.0.0.1:6470/healthz
+curl -i http://127.0.0.1:6060/healthz
 HTTP/1.1 200 OK
 Date: Thu, 09 Mar 2023 02:34:17 GMT
 Content-Length: 2
